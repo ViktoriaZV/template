@@ -1,0 +1,13 @@
+mixin header({imgSrc, logoText, list = [],listItem, text, tel, button})
+    +b.header
+        +e.logo
+            +e.img-wrapper
+                +e.img(src=imgSrc)
+            +e.P.text= logoText
+        +e.UL.list
+            each item in list
+                +e.A.item= item.listItem
+        +e.contact
+            +e.P.text= text
+            +e.A.tel= tel
+        +e.BUTTON.button= button 

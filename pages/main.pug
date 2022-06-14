@@ -1,0 +1,16 @@
+extends /layouts/page
+include /components/title/title
+include /components/icon/icon
+include /components/header/header
+
+
+block title
+    | Главная
+
+
+block content
+
+    .container
+        +header(data.header.header)
+
+    section.preview
