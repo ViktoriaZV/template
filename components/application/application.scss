@@ -1,0 +1,26 @@
+.application{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    color: $white;
+    margin-left: 11.3px;
+
+    &__title{
+        font-family: 'Nimbus Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        max-width: 244px;
+    }
+
+    &__text{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        max-width: 21.2%;
+    }
+}

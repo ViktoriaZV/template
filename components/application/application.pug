@@ -1,0 +1,8 @@
+include ../button-link/button-link
+
+mixin application({title, text, phone, button, link})
+    +b.application
+        +e.H3.title= title
+        +e.P.text= text
+        +e.P.phone= phone
+        +button-link({'linkText': link})

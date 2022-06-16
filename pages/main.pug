@@ -2,7 +2,11 @@ extends /layouts/page
 include /components/title/title
 include /components/icon/icon
 include /components/header/header
-
+include /components/preview-card/preview-card
+include /components/preview-slider/preview-slider
+include /components/slider-card/slider-card
+include /components/application/application
+include /components/functionality/functionality
 
 block title
     | Главная
@@ -10,7 +14,25 @@ block title
 
 block content
 
-    .container
-        +header(data.header.header)
 
-    section.preview
+    +header(data.main.header)
+
+    main
+        section.preview
+            .preview-inner
+                +preview-card(data.main.previewCward)
+
+                +preview-slider(data.main.slider)
+
+        section.slider-section 
+            .container
+                .slider-inner
+                    each val in data.main.slideCard
+                        +slider-card(val)
+
+        section.application-section
+            .container
+                +application(data.main.application)
+        
+        section.functionality-section
+            +functionality(data.main.functionality)

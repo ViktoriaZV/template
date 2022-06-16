@@ -1,0 +1,66 @@
+{
+  "header": {
+    "imgSrc": "~images/logo.svg",
+    "logoText": "Пресс Индекс",
+    "list": [
+      {
+        "listItem": "Услуги"
+      },
+      {
+        "listItem": "Возможности"
+      }
+    ],
+    "text": "Ваш менеджер",
+    "tel": "+7 (495) 374 44 55",
+    "link": "Приобрести"
+  },
+  "previewCward": {
+    "title": "Пресс Индекс",
+    "text": "Самые обсуждаемые темы в СМИ, соцсетях и telegram в режиме реального времени в одном сервисе",
+    "inscription": "Система мониторинга",
+    "link": "Подробнее"
+  },
+  "slider": {
+    "data": "04 / 02 / 2020",
+    "imgSrc": "https://www.fillmurray.com/640/360",
+    "title": "Новые возможности системы мониторинга",
+    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
+  },
+  "slideCard": [
+    {
+      "imgSrc": "https://www.fillmurray.com/640/360",
+      "title": "Пресс Индекс",
+      "text": "Самые обсуждаемые темы в СМИ, соцсетях и telegram в режиме реального времени в одном сервисе"
+    },
+    {
+      "imgSrc": "https://www.fillmurray.com/640/360",
+      "title": "Пресс Индекс",
+      "text": "Самые обсуждаемые темы в СМИ, соцсетях и telegram в режиме реального времени в одном сервисе"
+    },
+    {
+      "imgSrc": "https://www.fillmurray.com/640/360",
+      "title": "Пресс Индекс",
+      "text": "Самые обсуждаемые темы в СМИ, соцсетях и telegram в режиме реального времени в одном сервисе"
+    }
+  ],
+  "application": {
+    "title": "Бесплатный доступ",
+    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus",
+    "phone": "Введите ваш номер телефона",
+    "link": "Попробовать"
+  },
+
+  "functionality": {
+    "title": "title",
+    "text": "Пресс Индекс",
+    "tabList": [
+      {
+        "item": "Услуги"
+      },
+      {
+        "item": "Возможности"
+      }
+    ],
+    "imgSrc": "~images/logo.svg"
+  }
+}

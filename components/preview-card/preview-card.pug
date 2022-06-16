@@ -1,0 +1,8 @@
+include ../button-link/button-link
+
+mixin preview-card({title, text, inscription, link})
+    +b.preview-card
+        +e.H1.title= title
+        +e.P.text= text
+        +e.P.inscription= inscription
+        +button-link({'linkText': link})

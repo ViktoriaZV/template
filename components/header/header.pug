@@ -1,13 +1,17 @@
-mixin header({imgSrc, logoText, list = [],listItem, text, tel, button})
+include ../button-link/button-link
+
+mixin header({imgSrc, logoText, list = [], listItem, text, tel, link})
     +b.header
-        +e.logo
+        +e.A.logo(href='#')
             +e.img-wrapper
-                +e.img(src=imgSrc)
-            +e.P.text= logoText
+                +e.logo-img(src=imgSrc)
+            +e.P.logo-text= logoText
         +e.UL.list
             each item in list
                 +e.A.item= item.listItem
         +e.contact
-            +e.P.text= text
-            +e.A.tel= tel
-        +e.BUTTON.button= button 
+        +e.contact
+            +e.P.contact-text= text
+            +e.A.contact-tel(href='tel:74953744455')= tel
+        +button-link({'linkText': link})
+

@@ -1,0 +1,50 @@
+
+.preview-card{
+   position: relative;
+   margin: 0 auto;
+   padding: 180px 15px 0 5%;
+
+   width: 56.3%; 
+   height: 829px;
+
+   background-image: url(~images/preview/preview-card-bg.png);
+   background-size: 1151px 928px;
+   background-repeat: no-repeat;
+   background-position: top left;
+
+   &__title {   
+    font-family: 'AmericanTypewriter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 1.1;
+    letter-spacing: 0.01em;
+    max-width: 382px;
+    margin-bottom: 90px;
+   }
+
+   &__inscription{
+    position: absolute;
+    transform: rotate(-90deg) translate(0, -245px);
+    margin: 0;            
+    top: 50%; 
+
+    font-family: 'SignPainter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 41px;
+    line-height: 1.25;   
+   }
+
+   &__text{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 1.4;
+      max-width: 243px;
+      margin-bottom: 90px;
+   }
+
+}
+
