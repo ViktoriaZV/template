@@ -25,15 +25,13 @@ block content
     main
         section.preview
             .preview-inner
-                +preview-card(data.main.previewCward)
-
+                +preview-card(data.main.previewCard)
                 +preview-slider(data.main.slider)
 
         section.slider-section.section-grey
             .container
                 .slider-inner
-                    each val in data.main.slideCard
-                        +slider-card(val)
+                    +slider-card(data.main.sliderCards)
 
         section.application-section
             .container

@@ -14,35 +14,93 @@
     "tel": "+7 (495) 374 44 55",
     "link": "Приобрести"
   },
-  "previewCward": {
+
+  "previewCard": {
     "title": "Пресс Индекс",
     "text": "Самые обсуждаемые темы в СМИ, соцсетях и telegram в режиме реального времени в одном сервисе",
     "inscription": "Система мониторинга",
     "link": "Подробнее"
   },
+
   "slider": {
-    "data": "04 / 02 / 2020",
-    "imgSrc": "https://www.fillmurray.com/640/360",
-    "title": "Новые возможности системы мониторинга",
-    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
+    "slides": [
+      {
+        "date": "01 / 01 / 2020",
+        "imgSrc": "https://www.fillmurray.com/640/360",
+        "title": "Новые возможности системы мониторинга 1",
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
+      },
+      {
+        "date": "02 / 02 / 2021",
+        "imgSrc": "https://www.fillmurray.com/640/360",
+        "title": "Новые возможности системы мониторинга 2",
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
+      },
+      {
+        "date": "03 / 03 / 2022",
+        "imgSrc": "https://www.fillmurray.com/640/360",
+        "title": "Новые возможности системы мониторинга 3",
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
+      },
+      {
+        "date": "04 / 04 / 2023",
+        "imgSrc": "https://www.fillmurray.com/640/360",
+        "title": "Новые возможности системы мониторинга 4",
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
+      },
+      {
+        "date": "05 / 05 / 2024",
+        "imgSrc": "https://www.fillmurray.com/640/360",
+        "title": "Новые возможности системы мониторинга 5",
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
+      }
+    ],
+    "arrowNext": "next",
+    "arrowPrev": "prev"
   },
-  "slideCard": [
-    {
-      "imgSrc": "https://www.fillmurray.com/640/360",
-      "title": "Пресс Индекс",
-      "text": "Самые обсуждаемые темы в СМИ, соцсетях и telegram в режиме реального времени в одном сервисе"
-    },
-    {
-      "imgSrc": "https://www.fillmurray.com/640/360",
-      "title": "Пресс Индекс",
-      "text": "Самые обсуждаемые темы в СМИ, соцсетях и telegram в режиме реального времени в одном сервисе"
-    },
-    {
-      "imgSrc": "https://www.fillmurray.com/640/360",
-      "title": "Пресс Индекс",
-      "text": "Самые обсуждаемые темы в СМИ, соцсетях и telegram в режиме реального времени в одном сервисе"
-    }
-  ],
+
+  "sliderCards": {
+    "slides": [
+      {
+        "imgSrc": "https://www.fillmurray.com/640/360",
+        "title": "Пресс Индекс 1",
+        "text": "Самые обсуждаемые темы в СМИ, соцсетях и telegram в режиме реального времени в одном сервисе"
+      },
+      {
+        "imgSrc": "https://www.fillmurray.com/640/360",
+        "title": "Пресс Индекс 2",
+        "text": "Самые обсуждаемые темы в СМИ, соцсетях и telegram в режиме реального времени в одном сервисе"
+      },
+      {
+        "imgSrc": "https://www.fillmurray.com/640/360",
+        "title": "Пресс Индекс 3",
+        "text": "Самые обсуждаемые темы в СМИ, соцсетях и telegram в режиме реального времени в одном сервисе"
+      },
+      {
+        "imgSrc": "https://www.fillmurray.com/640/360",
+        "title": "Пресс Индекс 4",
+        "text": "Самые обсуждаемые темы в СМИ, соцсетях и telegram в режиме реального времени в одном сервисе"
+      },
+      {
+        "imgSrc": "https://www.fillmurray.com/640/360",
+        "title": "Пресс Индекс 5",
+        "text": "Самые обсуждаемые темы в СМИ, соцсетях и telegram в режиме реального времени в одном сервисе"
+      },
+      {
+        "imgSrc": "https://www.fillmurray.com/640/360",
+        "title": "Пресс Индекс 6",
+        "text": "Самые обсуждаемые темы в СМИ, соцсетях и telegram в режиме реального времени в одном сервисе"
+      },
+      {
+        "imgSrc": "https://www.fillmurray.com/640/360",
+        "title": "Пресс Индекс 7",
+        "text": "Самые обсуждаемые темы в СМИ, соцсетях и telegram в режиме реального времени в одном сервисе"
+      }
+    ],
+    "arrowNext": "next",
+    "arrowPrev": "prev"
+  },
+
   "application": {
     "title": "Бесплатный доступ",
     "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus",
