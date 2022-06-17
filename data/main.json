@@ -26,7 +26,7 @@
     "slides": [
       {
         "date": "01 / 01 / 2020",
-        "imgSrc": "https://www.fillmurray.com/640/360",
+        "imgSrc": "~images/preview/preview-slider-img.jpg",
         "title": "Новые возможности системы мониторинга 1",
         "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
       },
@@ -38,7 +38,7 @@
       },
       {
         "date": "03 / 03 / 2022",
-        "imgSrc": "https://www.fillmurray.com/640/360",
+        "imgSrc": "https://www.fillmurray.com/650/360",
         "title": "Новые возможности системы мониторинга 3",
         "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
       },
@@ -50,31 +50,32 @@
       },
       {
         "date": "05 / 05 / 2024",
-        "imgSrc": "https://www.fillmurray.com/640/360",
+        "imgSrc": "https://www.fillmurray.com/640/370",
         "title": "Новые возможности системы мониторинга 5",
         "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
       }
     ],
-    "arrowNext": "next",
-    "arrowPrev": "prev"
+    "arrowNext": "arrowPrev",
+    "arrowPrev": "arrowNext"
   },
 
   "sliderCards": {
     "slides": [
       {
-        "imgSrc": "https://www.fillmurray.com/640/360",
-        "title": "Пресс Индекс 1",
-        "text": "Самые обсуждаемые темы в СМИ, соцсетях и telegram в режиме реального времени в одном сервисе"
+        "imgSrc": "~images/slider-section/slid2.jpg",
+        "title": "Мониторинг сайта",
+        "text": "Узнайте первым о новых и измененных страницах на сайтах конкурентов. Получайте оповещения в случае изменения цен или публикации акций."
       },
       {
-        "imgSrc": "https://www.fillmurray.com/640/360",
-        "title": "Пресс Индекс 2",
-        "text": "Самые обсуждаемые темы в СМИ, соцсетях и telegram в режиме реального времени в одном сервисе"
+        "imgSrc": "~images/slider-section/slid1.jpg",
+        "title": "Мониторинг социальных сетей",
+        "text": "Будьте в курсе, что пишут ваши конкуренты на своих страницах в социальных сетях."
       },
       {
-        "imgSrc": "https://www.fillmurray.com/640/360",
-        "title": "Пресс Индекс 3",
-        "text": "Самые обсуждаемые темы в СМИ, соцсетях и telegram в режиме реального времени в одном сервисе"
+        "imgSrc": "~images/slider-section/slid3.jpg",
+        "title": "Мониторинг упоминаний",
+        "text": "Отслеживайте упоминания о конкурентах в СМИ 
+        и социальных сетях. Система автоматически определяет тональность комментариев и реакцию аудитории."
       },
       {
         "imgSrc": "https://www.fillmurray.com/640/360",
