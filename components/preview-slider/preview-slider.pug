@@ -1,8 +1,12 @@
-mixin preview-slider({data, title, text, imgSrc})
+mixin preview-slider({slides=[], slide, arrowNext, arrowPrev})
     +b.preview-slider
-        +e.img-wrapper
-            +e.img(src=imgSrc)= imgSrc
-        +e.P.data= data
-        +e.H1.title= title
-        +e.P.text= text
-
+        each slide in slides
+            +b.preview-slide
+                +e.img-wrapper
+                    +e.img(src=slide.imgSrc)
+                +e.P.data= slide.data
+                +e.H1.title= slide.title
+                +e.P.text= slide.text
+        +e.arrows
+            +e.BUTTON.arrowPrev= arrowPrev
+            +e.BUTTON.arrowNext= arrowNext

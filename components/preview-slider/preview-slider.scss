@@ -1,48 +1,56 @@
-.preview-slider{
+.preview-slider {
     width: 36.5%;
 
-    &__img-wrapper{
-        width: 100%;
-        max-width: 609px;
-        height: 255px;
-        overflow: hidden;
-        margin-bottom: 27px;
-    }
+    .preview-slide {
+        display: none;
 
-    &__img{
-        width: auto;
-        max-width:100%;
-        height:auto;
-    }
+        &:first-child {
+            display: block;
+        }
 
-    &__data{
-        font-family: 'Lato';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 13px;
-        line-height: 16px;
-        color: #4A4A4A;
-        margin-bottom: 20px;
-    }
+        &__img-wrapper{
+            width: 100%;
+            max-width: 609px;
+            height: 255px;
+            overflow: hidden;
+            margin-bottom: 27px;
+        }
 
-    &__title{
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 26px;
-        color: $black;
-        margin-bottom: 30px;
-    }
+        &__img{
+            width: auto;
+            max-width:100%;
+            height:auto;
+        }
 
-    &__text{
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 22px;
-        letter-spacing: 0.01em;
-        color: #4F4F4F;
-        margin-bottom: 26px;
+        &__data{
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 16px;
+            color: #4A4A4A;
+            margin-bottom: 20px;
+        }
+
+        &__title{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 26px;
+            color: $black;
+            margin-bottom: 30px;
+        }
+
+        &__text{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: 0.01em;
+            color: #4F4F4F;
+            margin-bottom: 26px;
+        }
     }
 }

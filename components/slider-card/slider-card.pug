@@ -1,6 +1,14 @@
-mixin slider-card({imgSrc,title, text})
-    +b.slider-card
-        +e.img-wrapper
-            +e.img(src=imgSrc)= imgSrc
-        +e.H1.title= title
-        +e.P.text= text
+mixin slider-card({slides=[], slide, arrowNext, arrowPrev})
+    +b.slider-cards
+        +e.wrapper
+            +e.items
+                each slide in slides
+                    +b.slider-card
+                        +e.img-wrapper
+                            +e.img(src=slide.imgSrc)
+                        +e.H1.title= slide.title
+                        +e.P.text= slide.text
+        +e.button-left
+            +e.P
+        +e.button-right
+            +e.P
