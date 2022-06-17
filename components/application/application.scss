@@ -20,4 +20,13 @@
         line-height: 22px;
         max-width: 21.2%;
     }
+
+    &__phone{
+        background-color: transparent;
+        color: $white;
+        padding: 15px;
+        border: none;
+        border-bottom: 1px solid $white;
+    }
+
 }

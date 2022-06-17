@@ -5,6 +5,7 @@
     width: 100%;
     max-width: 1700px;
     margin: 0 0 0 auto;
+    padding-left: 15px;
 
     &__content {
         width: 30%;
@@ -35,6 +36,7 @@
         margin-bottom: 30px;
     }
 
+
     &__tab-item:hover {
         background-color: black;
         color: $white;
@@ -42,10 +44,10 @@
 
     &__img-wrapper {
         height: 631px;
-        width: 40%;
-        background-image: url('https://www.fillmurray.com/640/360');
+        width: 60%;
+        background-image: url('~images/functionality/tab1.png');
 
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
     }

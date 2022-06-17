@@ -4,5 +4,5 @@ mixin application({title, text, phone, button, link})
     +b.application
         +e.H3.title= title
         +e.P.text= text
-        +e.P.phone= phone
+        +e.INPUT(type="text" name="title" placeholder="Введите ваш номер телефона").phone= phone
         +button-link({'linkText': link})

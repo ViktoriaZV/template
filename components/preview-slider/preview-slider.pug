@@ -1,4 +1,4 @@
-mixin preview-slider({slides=[], slide, arrowNext, arrowPrev})
+mixin preview-slider({slides=[], slide, arrowNext, arrowPrev, link})
     +b.preview-slider
         each slide in slides
             +b.preview-slide
@@ -9,4 +9,4 @@ mixin preview-slider({slides=[], slide, arrowNext, arrowPrev})
                 +e.P.text= slide.text
         +e.arrows
             +e.BUTTON.arrowPrev= arrowPrev
-            +e.BUTTON.arrowNext= arrowNext
+            +e.BUTTON.arrowNext= arrowNext  
