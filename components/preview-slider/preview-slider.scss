@@ -53,4 +53,22 @@
             margin-bottom: 26px;
         }
     }
+
+    &__arrowPrev {
+        border: 0;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background: url('~images/arrow_left.svg');
+        background-repeat: no-repeat;
+    }
+
+    &__arrowNext {
+        border: 0;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background: url('~images/arrow_right.svg');
+        background-repeat: no-repeat;
+    }
 }

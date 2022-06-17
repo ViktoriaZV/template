@@ -22,7 +22,6 @@ $(() => {
         $(buttonPlay).removeClass(SHOW_PLAY_BUTTON)
 
         $(video)
-            .get(0)
             .on('click', () => {
                 if ($(video).get(0).paused) {
                     $(video).get(0).play()
