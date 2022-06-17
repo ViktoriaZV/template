@@ -6,10 +6,9 @@ mixin header({imgSrc, logoText, list = [], listItem, text, tel, link})
             +e.img-wrapper
                 +e.logo-img(src=imgSrc)
             +e.P.logo-text= logoText
-        +e.UL.list
+        +e.UL.nav
             each item in list
-                +e.A.item= item.listItem
-        +e.contact
+                +e.A.nav-item= item.listItem
         +e.contact
             +e.P.contact-text= text
             +e.A.contact-tel(href='tel:74953744455')= tel

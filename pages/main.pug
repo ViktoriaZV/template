@@ -7,6 +7,11 @@ include /components/preview-slider/preview-slider
 include /components/slider-card/slider-card
 include /components/application/application
 include /components/functionality/functionality
+include /components/pleer-section-img/pleer-section-img
+include /components/pleer-content/pleer-content
+include /components/advantages-card/advantages-card
+include /components/footer/footer
+
 
 block title
     | Главная
@@ -24,7 +29,7 @@ block content
 
                 +preview-slider(data.main.slider)
 
-        section.slider-section 
+        section.slider-section.section-grey
             .container
                 .slider-inner
                     each val in data.main.slideCard
@@ -34,5 +39,18 @@ block content
             .container
                 +application(data.main.application)
         
-        section.functionality-section
+        section.functionality-section.section-grey
             +functionality(data.main.functionality)
+
+        section.pleer-section
+            +pleer-img(data.main.pleerImg)
+            +pleer-content(data.main.pleerContent)
+
+        section.section-advantages.section-grey
+            .container
+                .advantages-inner
+                    each val in data.main.advantagesCard
+                        +advantages-card(val)
+
+    +footer(data.main.footer)
+        

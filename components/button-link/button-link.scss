@@ -1,5 +1,6 @@
 
 .button-link{
+        display: inline-block;
         position: relative;
         font-family: Montserrat;
         font-size: 18px;
@@ -14,6 +15,7 @@
         padding:  22px 105px 22px 38px;
         border: none;
         cursor: pointer;
+        transition: 0.3s;
 
     &::after{
         background-image: url(~images/button-arrow.svg);
@@ -31,7 +33,11 @@
         display: block;
         height: 47px;
         width: 72px;
-
         border-left: 1px solid $white;
     }
+
+    // &::hover{
+    //     opacity: 0.3;
+    //     transition: 0.3s;
+    // }
 }

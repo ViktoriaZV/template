@@ -1,0 +1,11 @@
+mixin footer({imgSrc, logoText, listNav = [], listItem})
+    +b.footer
+        +e.A.logo(href='#')
+            +e.img-wrapper
+                +e.logo-img(src=imgSrc)
+            +e.P.logo-text= logoText
+        +e.UL.nav
+            each item in listNav
+                +e.A.nav-item= item.listItem
+
+

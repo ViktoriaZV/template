@@ -51,16 +51,87 @@
   },
 
   "functionality": {
-    "title": "title",
-    "text": "Пресс Индекс",
+    "title": "Функциональность",
+    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus",
     "tabList": [
       {
-        "item": "Услуги"
+        "item": "добавление конкурента"
       },
       {
-        "item": "Возможности"
+        "item": "мониторинг конкурента"
+      },
+      {
+        "item": "список конкурентов"
       }
     ],
     "imgSrc": "~images/logo.svg"
+  },
+
+  "pleerContent": {
+    "title": "И еще много уникальных возможностей с уникальным текстом",
+    "imgSrc": "~images/pleer-section/play.svg",
+    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet."
+  },
+
+  "pleerImg": {
+    "imgSrc": "~images/pleer-section/pleer-img.jpg"
+  },
+  
+  "advantagesCard": [
+    {
+      "imgSrc": "~images/advantages/card1.svg",
+      "title": "Мониторинг в реальном времени",
+      "text": "Будьте в курсе, что пишут ваши конкуренты на своих страницах в социальных сетях."
+    },
+    {
+      "imgSrc": "~images/advantages/card2.svg",
+      "title": "Отсутствие лимитов на обработку данных",
+      "text": "Будьте в курсе, что пишут ваши конкуренты на своих страницах в социальных сетях."
+    },
+    {
+      "imgSrc": "~images/advantages/card3.svg",
+      "title": "Преднастроенные графики и отчеты",
+      "text": "Будьте в курсе, что пишут ваши конкуренты на своих страницах в социальных сетях."
+    },
+    {
+      "imgSrc": "~images/advantages/card4.svg",
+      "title": "Оповещения на смартфон или по электронной почте",
+      "text": "Будьте в курсе, что пишут ваши конкуренты на своих страницах в социальных сетях."
+    },
+    {
+      "imgSrc": "~images/advantages/card5.svg",
+      "title": "Бесплатный доступ",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus"
+    },
+    {
+      "imgSrc": "~images/advantages/card6.svg",
+      "title": "Экспорт данных в Word, Excel, PDF, HTML",
+      "text": "Будьте в курсе, что пишут ваши конкуренты на своих страницах в социальных сетях."
+    }
+  ],
+
+  "footer": {
+    "imgSrc": "~images/logo.svg",
+    "logoText": "Пресс Индекс",
+    "listNav": [
+      {
+        "listItem": "Услуги"
+      },
+      {
+        "listItem": "Отзывы"
+      },
+      {
+        "listItem": "API"
+      },
+      {
+        "listItem": "Контакты"
+      },
+      {
+        "listItem": "Тафрифы"
+      },
+      {
+        "listItem": "F.A.Q."
+      }
+    ]
   }
 }
