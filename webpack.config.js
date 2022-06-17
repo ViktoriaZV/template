@@ -50,10 +50,13 @@ const pages = fs.readdirSync(Path.pages).map((file) => ({
     path: Path.page(file),
 }))
 
-const dataFiles = fs.readdirSync(Path.data).reduce((acc, file) => ({
-    ...acc,
-    [path.parse(file).name]: require(Path.dataFile(file))
-}), {})
+const dataFiles = fs.readdirSync(Path.data).reduce(
+    (acc, file) => ({
+        ...acc,
+        [path.parse(file).name]: require(Path.dataFile(file)),
+    }),
+    {}
+)
 
 if (fs.existsSync(Path.output)) {
     log.info('Чистим dist')
@@ -132,7 +135,7 @@ module.exports = {
                             pretty: true,
                             data: {
                                 data: {
-                                    ...dataFiles
+                                    ...dataFiles,
                                 },
                             },
                         },
@@ -185,7 +188,7 @@ module.exports = {
                         options: {
                             extract: true,
                             outputPath: 'assets/icons/',
-                        }
+                        },
                     },
                     'svg-transform-loader',
                     'svgo-loader',
@@ -209,7 +212,7 @@ module.exports = {
         ),
         new webpack.ProvidePlugin({
             $: Path.lib('jquery-3.6.0.min.js'),
-            jQuery: Path.lib('jquery-3.6.0.min.js')
-        })
+            jQuery: Path.lib('jquery-3.6.0.min.js'),
+        }),
     ],
 }

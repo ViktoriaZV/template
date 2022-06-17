@@ -1,4 +1,4 @@
-.application{
+.application {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -6,14 +6,14 @@
     width: 100%;
     color: $white;
 
-    &__title{
+    &__title {
         font-family: 'Nimbus Mono';
         font-weight: 700;
         font-size: 40px;
         max-width: 244px;
     }
 
-    &__text{
+    &__text {
         font-family: 'Roboto';
         font-weight: 400;
         font-size: 14px;

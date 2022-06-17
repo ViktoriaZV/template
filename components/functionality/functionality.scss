@@ -1,4 +1,4 @@
-.functionality{
+.functionality {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,11 +6,11 @@
     max-width: 1700px;
     margin: 0 0 0 auto;
 
-    &__content{
+    &__content {
         width: 30%;
     }
 
-    &__title{
+    &__title {
         font-family: 'Nimbus Mono';
         font-weight: 700;
         font-size: 40px;
@@ -18,7 +18,7 @@
         margin-bottom: 22px;
     }
 
-    &__text{
+    &__text {
         font-family: 'Roboto';
         font-weight: 400;
         font-size: 14px;
@@ -26,7 +26,7 @@
         margin-bottom: 60px;
     }
 
-    &__tab-item{
+    &__tab-item {
         font-family: 'Nimbus Mono';
         font-weight: 700;
         font-size: 30px;
@@ -35,16 +35,16 @@
         margin-bottom: 30px;
     }
 
-    &__tab-item:hover{
+    &__tab-item:hover {
         background-color: black;
-        color: $white
+        color: $white;
     }
 
-    &__img-wrapper{
+    &__img-wrapper {
         height: 631px;
         width: 40%;
         background-image: url('https://www.fillmurray.com/640/360');
-        
+
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;

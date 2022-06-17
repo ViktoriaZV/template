@@ -9,42 +9,42 @@
     padding: 0 25px;
 }
 
-section{
+section {
     margin: 0 auto;
     width: 100%;
     height: auto;
 }
 
-main{
+main {
     margin: 0 auto;
     width: 100%;
     height: auto;
     max-width: 1920px;
 }
 
-.preview{
+.preview {
     padding: 0 25px;
 }
 
-.preview-inner{
+.preview-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     max-width: 1670px;
-    margin:  0 auto;
+    margin: 0 auto;
 }
 
-.slider-section{
+.slider-section {
 }
 
-.slider-inner{
+.slider-inner {
     display: flex;
     justify-content: space-between;
     padding: 100px 0 77px;
 }
 
-.application-section{
+.application-section {
     padding: 98px 0 88px;
     background-image: url(~images/application/application-bg.jpg);
     background-size: cover;
@@ -53,15 +53,19 @@ main{
     background-color: $black;
 }
 
-.functionality-section{
-
+.functionality-section {
 }
 
-.section-grey{
-    background: linear-gradient(274.92deg, rgba(236, 236, 236, 0.54) 4.6%, rgba(251, 251, 251, 0.44) 118.96%), #FFFFFF;
+.section-grey {
+    background: linear-gradient(
+            274.92deg,
+            rgba(236, 236, 236, 0.54) 4.6%,
+            rgba(251, 251, 251, 0.44) 118.96%
+        ),
+        #ffffff;
 }
 
-.pleer-section{
+.pleer-section {
     margin: 0 auto 0 0;
     padding: 70px 25px 95px 0;
     max-width: 1756px;
@@ -70,15 +74,12 @@ main{
     align-items: center;
 }
 
-.section-advantages{
+.section-advantages {
     padding: 86px 0 20px 0;
 }
 
-.advantages-inner{
+.advantages-inner {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
 }
-
-

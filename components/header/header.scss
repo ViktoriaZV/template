@@ -1,4 +1,4 @@
-.header{
+.header {
     margin: 0 auto;
     width: 100%;
     max-width: 1920px;
@@ -8,7 +8,7 @@
     border-bottom: 0.5px solid $black;
     padding-right: 1.7%;
 
-    &__logo{
+    &__logo {
         display: flex;
         margin-right: 4.27%;
         padding: 39px 68px 34px 37px;
@@ -20,20 +20,19 @@
         color: $black;
     }
 
-
-    &__img-wrapper{
-        width:54px;
+    &__img-wrapper {
+        width: 54px;
         height: 52px;
         margin-right: 22px;
     }
 
-    &__logo-img{
+    &__logo-img {
         width: auto;
         max-width: 100%;
         height: auto;
     }
 
-    &__logo-text{
+    &__logo-text {
         font-family: 'AmericanTypewriter';
         font-weight: 400px;
         font-size: 26px;
@@ -41,17 +40,17 @@
         max-width: 100px;
     }
 
-    &__nav{
+    &__nav {
         display: flex;
         list-style-type: none;
         width: auto;
     }
 
-        &__nav>li{
-            margin-right: 6.6%;
+    &__nav > li {
+        margin-right: 6.6%;
     }
 
-    &__nav-item{
+    &__nav-item {
         font-family: 'Montserrat';
         font-weight: 700px;
         font-size: 22px;
@@ -60,13 +59,13 @@
         text-decoration: none;
     }
 
-    &__contact{
+    &__contact {
         margin-left: auto;
         margin-right: 4%;
         text-align: right;
     }
 
-    &__contact-text{
+    &__contact-text {
         font-family: 'Lato';
         font-weight: 500px;
         font-size: 13px;
@@ -76,7 +75,7 @@
         margin-bottom: 5px;
     }
 
-    &__contact-tel{
+    &__contact-tel {
         font-family: 'Montserrat';
         font-weight: 700px;
         font-size: 18px;
@@ -85,5 +84,4 @@
         white-space: nowrap;
         text-decoration: none;
     }
-
 }

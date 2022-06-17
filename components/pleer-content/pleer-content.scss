@@ -1,7 +1,7 @@
-.pleer-content{
+.pleer-content {
     width: 38.5%;
 
-    &__title{
+    &__title {
         font-family: 'NimbusMono';
         font-weight: 700;
         font-size: 34px;
@@ -12,23 +12,23 @@
         margin-left: 100px;
     }
 
-    &__title::before{
-        content: "";
+    &__title::before {
+        content: '';
         display: inline-block;
-        background-image: url("~images/pleer-section/quotation.svg");
+        background-image: url('~images/pleer-section/quotation.svg');
         width: 81px;
         height: 81px;
         position: absolute;
         left: -106px;
     }
 
-    &__text{
+    &__text {
         font-family: 'Roboto';
         font-weight: 400;
         font-size: 14px;
         line-height: 1.6;
         color: $dark-gray;
-        padding-top: 50px ;
+        padding-top: 50px;
         border-top: 1px solid $black;
     }
 }

@@ -1,12 +1,12 @@
 .slider-cards {
     // max-width: 1534px;
     margin: 10px auto;
-    width:100%;
+    width: 100%;
 
     &__wrapper {
         margin: 10px 30px;
         overflow: hidden;
-        position:relative;
+        position: relative;
     }
 
     &__items {
@@ -19,14 +19,14 @@
         width: 20px;
         height: 20px;
         background-color: blue;
-        background: url("~images/arrow_left.svg");
+        background: url('~images/arrow_left.svg');
     }
     &__button-right p {
         float: right;
         width: 20px;
         height: 20px;
         background-color: red;
-        background: url("~images/arrow_right.svg");
+        background: url('~images/arrow_right.svg');
     }
 
     .slider-card {
@@ -44,8 +44,8 @@
 
         &__img {
             width: auto;
-            height:auto;
-            max-width:100%;
+            height: auto;
+            max-width: 100%;
         }
 
         &__title {

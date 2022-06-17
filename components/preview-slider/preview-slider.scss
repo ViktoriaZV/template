@@ -8,7 +8,7 @@
             display: block;
         }
 
-        &__img-wrapper{
+        &__img-wrapper {
             width: 100%;
             max-width: 609px;
             height: 255px;
@@ -16,23 +16,23 @@
             margin-bottom: 27px;
         }
 
-        &__img{
+        &__img {
             width: auto;
-            max-width:100%;
-            height:auto;
+            max-width: 100%;
+            height: auto;
         }
 
-        &__date{
+        &__date {
             font-family: 'Lato';
             font-style: normal;
             font-weight: 500;
             font-size: 13px;
             line-height: 16px;
-            color: #4A4A4A;
+            color: #4a4a4a;
             margin-bottom: 20px;
         }
 
-        &__title{
+        &__title {
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 700;
@@ -42,14 +42,14 @@
             margin-bottom: 30px;
         }
 
-        &__text{
+        &__text {
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
             line-height: 22px;
             letter-spacing: 0.01em;
-            color: #4F4F4F;
+            color: #4f4f4f;
             margin-bottom: 26px;
         }
     }

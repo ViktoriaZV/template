@@ -1,24 +1,24 @@
-.advantages-card{
+.advantages-card {
     width: 27.2%;
     margin-bottom: 86px;
     position: relative;
     z-index: 1;
 
-    &__img-wrapper{
+    &__img-wrapper {
         max-width: 70px;
         height: auto;
         overflow: hidden;
         margin-bottom: 32px;
     }
 
-    &__img{
+    &__img {
         width: auto;
-        max-width:100%;
-        height:auto;
+        max-width: 100%;
+        height: auto;
         object-fit: contain;
     }
 
-    &__title{
+    &__title {
         font-family: 'NimbusMono';
         font-weight: 700;
         font-size: 24px;
@@ -28,19 +28,19 @@
         border-bottom: 1px solid $black;
     }
 
-    &__text{
+    &__text {
         font-family: 'Roboto';
         font-weight: 400;
         font-size: 14px;
         line-height: 1.2;
-        color: #4F4F4F;
+        color: #4f4f4f;
     }
 }
 
-.advantages-card::before{
+.advantages-card::before {
     display: block;
     content: '';
-    color: #F1F1F1;
+    color: #f1f1f1;
     font-family: 'Nimbus Mono';
     font-weight: 700;
     font-size: 240px;
@@ -49,27 +49,26 @@
     left: -66px;
 }
 
-
-.advantages-card:nth-child(1)::before{
+.advantages-card:nth-child(1)::before {
     content: 'M';
 }
 
-.advantages-card:nth-child(2)::before{
+.advantages-card:nth-child(2)::before {
     content: 'О';
 }
 
-.advantages-card:nth-child(3)::before{
+.advantages-card:nth-child(3)::before {
     content: 'П';
 }
 
-.advantages-card:nth-child(4)::before{
+.advantages-card:nth-child(4)::before {
     content: 'О';
 }
 
-.advantages-card:nth-child(5)::before{
+.advantages-card:nth-child(5)::before {
     content: 'Э';
 }
 
-.advantages-card:nth-child(6)::before{
+.advantages-card:nth-child(6)::before {
     content: 'R';
 }

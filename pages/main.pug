@@ -13,14 +13,10 @@ include /components/pleer-video/pleer-video
 include /components/advantages-card/advantages-card
 include /components/footer/footer
 
-
 block title
     | Главная
 
-
 block content
-
-
     +header(data.main.header)
 
     main
@@ -37,14 +33,14 @@ block content
         section.application-section
             .container
                 +application(data.main.application)
-        
+
         section.functionality-section.section-grey
             +functionality(data.main.functionality)
 
         section.pleer-section
             +pleer-img(data.main.pleerImg)
             +pleer-content(data.main.pleerContent)
-            +pleer-video()
+            +pleer-video
 
         section.section-advantages.section-grey
             .container
@@ -53,4 +49,3 @@ block content
                         +advantages-card(val)
 
     +footer(data.main.footer)
-        
