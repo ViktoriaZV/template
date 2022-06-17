@@ -9,6 +9,7 @@ include /components/application/application
 include /components/functionality/functionality
 include /components/pleer-section-img/pleer-section-img
 include /components/pleer-content/pleer-content
+include /components/pleer-video/pleer-video
 include /components/advantages-card/advantages-card
 include /components/footer/footer
 
@@ -43,6 +44,7 @@ block content
         section.pleer-section
             +pleer-img(data.main.pleerImg)
             +pleer-content(data.main.pleerContent)
+            +pleer-video()
 
         section.section-advantages.section-grey
             .container
