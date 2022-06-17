@@ -1,4 +1,0 @@
-// EXAMPLE
-$(() => {
-    // console.log($('.title'))
-})
